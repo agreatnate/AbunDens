@@ -8,8 +8,8 @@
 
 # Compiler and flags
 CXX = g++
-CXXFLAGS = -std=c++17 -O3 -march=native -flto -DNDEBUG -fopenmp
-DEBUGFLAGS = -std=c++17 -O0 -g -Wall -Wextra -fsanitize=address -fopenmp
+CXXFLAGS = -std=c++17 -O3 -march=native -flto -DNDEBUG -fopenmp -frounding-math
+DEBUGFLAGS = -std=c++17 -O0 -g -Wall -Wextra -fsanitize=address -fopenmp -frounding-math
 INCLUDES = -I.
 LIBS = -lgmp -lgmpxx -lmpfr
 
