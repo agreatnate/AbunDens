@@ -105,7 +105,7 @@ public:
     void calculate(int zpow, int numPrimes, int prec);
     
 private:
-    // === Initialization and Control Methods (simplified) ===
+    // === Initialization and Control Methods ===
     int determineTaskCount(SmoothNumbersCovVars& final);
     void loadExistingResults(const string& infilename, const string& outfilename,
                             std::vector<bool>& processedTasks, SmoothNumbersCovVars& final,
@@ -172,7 +172,7 @@ private:
                                long double invSmoothDown, SmoothNumbersCovVars& vars, 
                                bool isDistrib) const;
 
-    // === Core Traversal Methods (simplified using framework) ===
+    // === Core Traversal Methods ===
     
     /**
      * Main recursive traversal for covering number enumeration
