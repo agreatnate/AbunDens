@@ -97,13 +97,12 @@ FINAL RESULTS: Abundant Number Density Bounds
 
 COMPUTATION STATISTICS:
   Numbers processed:            12345678
-  Total density accounted:      0.999834523817
+  Total density accounted:      1.00000000002
 
 DENSITY BOUNDS:
-  Lower bound:       0.247428561234567890
-  Upper bound:       0.247428561234568123
-  Bound width:       0.000000000000000233
-  Relative precision: 9.42e-16
+  Lower bound:       0.2474xxxxxxxxxxxxxx
+  Upper bound:       0.2477xxxxxxxxxxxxxx
+  Bound width:       0.0003xxxxxxxxxxxxxx
 
 CONTRIBUTION BREAKDOWN:
   W₁ sum (early term):   0.123456789012345
@@ -111,6 +110,8 @@ CONTRIBUTION BREAKDOWN:
   Given up branches:     0.025206340112346
   Lower bound (upper):   0.247428561234568
 ```
+
+Note the Total density accounted should exceed 1 (it is designed to round up at every calculation.)
 
 ## File Structure
 
