@@ -1,9 +1,12 @@
 /**
- * CovDens.cpp - Covering number density calculation using shared framework
+ * CovDens.cpp - Covering number density calculation
  * 
- * This refactored version leverages the DensityMathFramework for all common
- * mathematical operations, focusing only on covering-number-specific logic.
- * The code size is reduced by ~50% while maintaining identical functionality.
+ * This file implements algorithms to compute rigorous upper bounds for the 
+ * density of covering numbers. An integer n is covering if a distinct covering
+ * system of the integers can be formed using the divisors of n greater than one
+ * as moduli. The implementation uses smooth number enumeration, Bell number
+ * computations, interval arithmetic, and parallel processing to achieve
+ * high-precision density bounds for research in computational number theory.
  */
 
 #include "CovDens.h"

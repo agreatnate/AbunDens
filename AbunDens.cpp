@@ -1,9 +1,11 @@
 /**
- * AbunDens.cpp - Abundant number density calculation using shared framework
+ * AbunDens.cpp - Abundant number density calculation
  * 
- * This refactored version leverages the DensityMathFramework for all common
- * mathematical operations, focusing only on abundant-number-specific logic.
- * The code size is reduced by ~60% while maintaining identical functionality.
+ * This file implements algorithms to compute rigorous upper and lower bounds
+ * for the density of abundant numbers. An integer n is abundant if σ(n)/n ≥ 2,
+ * where σ(n) is the sum of divisors function. The implementation uses smooth
+ * number enumeration, interval arithmetic, and parallel processing to achieve
+ * high-precision density bounds for research in computational number theory.
  */
 
 #include "AbunDens.h"
